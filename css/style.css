@@ -1,0 +1,11 @@
+body {
+    background-color: #292929; /* Цвет фона веб-страницы */
+    color: #f0f0f0; /* Цвет основного текста */ 
+}
+.upload-file {
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background-color: #3c3d3e;
+    display: inline-block;
+    cursor: pointer;
+}
