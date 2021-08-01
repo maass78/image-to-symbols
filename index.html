@@ -1,20 +1,35 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Флексагон</title>
+        <title>Image to symbols</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.4/mobile-detect.min.js"></script>
     </head>
     <body>
-    
-        <form>
-           <label class="upload-file" style="width: 120px; height: 40px;">
-               <i class="fa fa-cloud-upload"></i>
-               <input type="file" accept="image/*" style="visibility: hidden;"/>
 
-           </label>
-        </form>
- 
+        <main id="app">
+            
+            <div class="header">
+                <h1 class="title-text">Image to symbols</h1>
+            </div>
 
+            <div>
+
+                <div style="margin-top: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <input type="number"/> X
+                    <input type="number"/>
+                </div>
+              
+
+                <div style="margin: 30px auto; width: 120px; height: 40px;">
+                    <label class="upload-file-label" for="inputImage">Загрузить</label>
+                    <input id="inputImage" class="upload-file-input" type="file" accept="image/*"/>
+                </div>
+            </div>
+
+        </main>
+
+        <script src="scripts/app.js"></script>
     </body>
 </html>
